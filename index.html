@@ -1,21 +1,265 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Play2Support</title>
-	<link rel="stylesheet" href="Style/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Play 2 Support</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="assets/packages/@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="stylesheet" href="assets/css/cus.css">
+    <style>
+        @font-face {
+            font-family: rooo;
+            src: url("assets/fonts/Roboto/Roboto-Medium.ttf");
+        }
+        @font-face {
+            font-family: mms;
+            src: url("assets/fonts/MyanmarSagar/MyanmarSagar.ttf");
+        }
+        body {
+            font-family: rooo,mms;
+        }
+    </style>
 </head>
 <body>
-	<div class="main_container">
-		<div class="image_container">
-			<img src="images/Play2Support2.png">
-		</div>
-		<div class="text_container">
-			<h3>" We Play Games to Support the Revolution,<br> Yes, We Exist "</h3>
-			<a href="https://github.com/play2support/play2support.github.io/releases/download/v1.2.0/Play2Support_v1.2.0.apk">Download Now (v1.2.0)</a>
-		</div>
-	</div>
+
+<div class="mode d-flex justify-content-center align-items-center headline">
+    <i class="fas fa-sun me-2"></i>
+    <div class="form-check form-switch mb-0 mt-1">
+        <input class="form-check-input change-mode" type="checkbox" role="switch" id="flexSwitchCheckChecked">
+    </div>
+    <i class="fas fa-moon"></i>
+</div>
+
+<main class="">
+
+    <!--This is Nav-->
+    <div class="position-fixed top-0 start-0 end-0 __nav">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-lg-10 p-0">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <div class="container justify-content-center justify-content-md-between">
+                            <a class="navbar-brand" href="#">
+                                <span class="d-flex justify-content-start align-items-center">
+                                    <div class="me-2 headline">
+                                        <img src="assets/img/favicon_io/favicon-32x32.png" class="img-fluid rounded-pill" alt="">
+                                    </div>
+                                <div class="logo-text headline">
+                                    <span class="">Play2Support</span>
+                                </div>
+                                </span>
+                            </a>
+                            <div class="d-none d-lg-block">
+                                <a class="text-decoration-none me-4 dark headline" href="">Home</a>
+                                <a class="text-decoration-none me-4 dark headline" href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Version</a>
+                                <a class="text-decoration-none dark headline" href="javascript:void(0)" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">About</a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--This is Home section-->
+    <section class="container">
+        <div class="row min-vh-100 justify-content-center align-items-center flex-column-reverse flex-lg-row">
+            <div class="col-md-12 col-lg-5">
+                <div class="text-center text-lg-start">
+                    <span class="headline">Welcome to</span>
+                    <h1 class="my-2 my-xl-3 fw-bold headline">Play 2 Support</h1>
+                    <h5 class="mb-5 headline">
+                        " We Play Games to Support the Revolution, Yes, We Exist "
+                    </h5>
+                    <div class="d-flex justify-content-start align-items-center flex-column flex-lg-row mb-0 mb-lg-3">
+                        <a class="btn btn-primary px-xl-4 py-xl-3 mb-3 mb-lg-0 me-lg-3 d-flex justify-content-center align-items-center headline" href="https://play.google.com/store/apps/details?id=com.mann.Play2Support">
+                            <img src="assets/img/google-play.png" class="me-2" width="25" alt="">
+                            <span>Playstore</span>
+                        </a>
+                        <a class="btn btn-primary px-xl-4 py-xl-3 mb-3 mb-md-0 d-flex justify-content-center align-items-center headline" href="https://github.com/play2support/play2support.github.io/releases/download/v1.2.0/Play2Support_v1.2.0.apk">
+                            <i class="fas fa-download me-2"></i>
+                            <span>Direct Download</span>
+                        </a>
+                    </div>
+                    <div class="home-social d-flex justify-content-center justify-content-lg-start align-items-center mb-5 mb-lg-0">
+                        <div class="home-control ms-lg-0 m-3 headline">
+                            <a class="text-decoration-none" href="https://www.facebook.com/play2support.mm">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </div>
+                        <div class="home-control m-3 headline">
+                            <a class="text-decoration-none" href="mailto:revolutionarydev.mm@gmail.com">
+                                <i class="fas fa-envelope"></i>
+                            </a>
+                        </div>
+                        <div class="home-control m-3 headline">
+                            <a class="text-decoration-none" href="https://t.me/play2support">
+                                <i class="fab fa-telegram-plane"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 col-lg-5 home">
+                <div class="headline">
+                    <img src="assets/img/Play2Support2.png" class="w-100" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Button trigger modal -->
+    <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">App version list</h5>
+                    <div type="button" data-bs-dismiss="modal" aria-label="Close">
+                        <i class="fas fa-times "></i>
+                    </div>
+                </div>
+                <div class="modal-body">
+                    <div class="">
+                        <table class="table table-responsive text-nowrap">
+                            <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Version</th>
+                                <th scope="col">Release Date</th>
+                                <th scope="col">Download</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>v 1.2.0</td>
+                                <td>3 Nov, 2021</td>
+                                <td>
+                                    <a class="btn btn-primary btn-sm" href="https://github.com/play2support/play2support.github.io/releases/download/v1.2.0/Play2Support_v1.2.0.apk"><i class="fas fa-download fa-fw me-2"></i>Download</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>v 1.1.2</td>
+                                <td>31 Oct, 2021</td>
+                                <td>
+                                    <a class="btn btn-primary btn-sm" href="https://github.com/play2support/play2support.github.io/releases/download/v1.1.2/Play2Support_v1.1.2.apk"><i class="fas fa-download fa-fw me-2"></i>Download</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td>v 1.1.1</td>
+                                <td>27 Oct, 2021</td>
+                                <td>
+                                    <a class="btn btn-primary btn-sm" href="https://github.com/play2support/play2support.github.io/releases/download/v1.1.1/Play2Support_v1.1.1.apk"><i class="fas fa-download fa-fw me-2"></i>Download</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">4</th>
+                                <td>v 1.1.0</td>
+                                <td>25 Oct, 2021</td>
+                                <td>
+                                    <a class="btn btn-primary btn-sm" href="https://github.com/play2support/play2support.github.io/releases/download/v1.1.0/Play2Support_v1.1.0.apk"><i class="fas fa-download fa-fw me-2"></i>Download</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">5</th>
+                                <td>v 1.0.0</td>
+                                <td>23 Oct, 2021</td>
+                                <td>
+                                    <a class="btn btn-primary btn-sm" href="https://github.com/play2support/play2support.github.io/releases/download/v1.0.0/Play2Support_v1.0.0.apk"><i class="fas fa-download fa-fw me-2"></i>Download</a>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mobile P2S Footer -->
+    <div class="p2s-footer-bar shadow-lg position-fixed bottom-0 start-0 end-0 w-100 bg-primary text-center text-white-50 d-block d-lg-none">
+        <div class="container">
+            <div class="row py-3">
+                <div class="col-4">
+                    <i class="fas fa-home"></i>
+                </div>
+                <div class="col-4">
+                    <div data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                        <i class="fas fa-list"></i>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">
+                        <i class="fas fa-info-circle"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasBottomLabel">About Play 2 Support</h5>
+                        <div type="button" class="text-reset" data-bs-dismiss="offcanvas" aria-label="Close"><i class="fas fa-times"></i></div>
+                    </div>
+                    <div class="offcanvas-body small">
+                        <div class="offcanvas-social mb-4 d-inline-block">
+                            <a class="text-decoration-none p-2 py-lg-1 px-lg-2" href="https://www.facebook.com/play2support.mm">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a class="text-decoration-none p-2 py-lg-1 px-lg-2" href="mailto:revolutionarydev.mm@gmail.com">
+                                <i class="fas fa-envelope"></i>
+                            </a>
+                            <a class="text-decoration-none p-2 py-lg-1 px-lg-2" href="https://t.me/play2support">
+                                <i class="fab fa-telegram-plane"></i>
+                            </a>
+                        </div>
+                        <p>
+                            အားလုံးပဲမင်္ဂလာပါ ကျွန်တော် Play2Support ရဲ့ဖန်တီးသူ P2S Team ရဲ့ Main Developer ပါခင်ဗျာ ဒီနေ့ကျွန်တော်ပြောစရာလေးရှိလို့ပါ။
+Play2Support ကို ကျွန်တော်စတင်ဖန်တီးကတည်းက ကိုယ်တိုင်ကြုံတွေ့ခဲ့ရတဲ့ အခက်အခဲတွေကိုချိန်ထိုးပြီး ဘဝတူရဲဘော်တွေကို ထောက်ပို့ချင်တဲ့အတွက်ဖန်တီးခဲ့တာဖြစ်ပါတယ်။ ထောက်ပို့ရာမှာလည်း ပြည်သူတွေစားဝတ်နေရေးခက်ခဲနေကြတဲ့အတွက် အလှူခံတဲ့နည်းထက် အိပ်မစိုက်ပဲ အချိန်ပေးရုံ ကြော်ငြာကြည့်ရုံနဲ့ ထောက်ပို့နိုင်မဲ့နည်းကိုကျွန်တော်ရွေးချယ်ခဲ့ပါတယ်။ ဒီလိုနဲ့အချိန်တစ်ခုယူဖန်တီးခဲ့ပြီး ဂိမ်းဆော့ရင်းထောက်ပို့နိုင်တဲ့ Play2Support ဂိမ်းလေးဖြစ်ပေါ်လာပါတယ်။ ကျွန်တော်ဟာတစ်ဖက်မှာတော်လှန်ရေးရဲဘော်တစ်ယောက်လည်းဖြစ်တဲ့အတွက် တာဝန်ထမ်းဆောင်ရန်မရှိသေးတဲ့အချိန်ခဏမှာ ကျွန်တော့်မိတ်ဆွေအချို့ရဲ့အကူအညီကိုယူပြီး Play2Support ကိုအားစိုက်ဖန်တီးခဲ့တာဖြစ်ပါတယ်
+အဓိကပြောချင်တဲ့အကြောင်းအရာကတော့အခုအချိန်မှာ ကျွန်တော်တာဝန်ထမ်းဆောင်ဖိုအတွက်ပြန်လည်ထွက်ခွာရပါတော့မယ်။ Team ရဲ့ Main Developer ဖြစ်တဲ့အတွက်ကျွန်တော်မရှိချိန်မှာ Play2Support ဂိမ်းကို ဂိမ်းအသစ်ထည့်ပေးတာတွေ Update ပေးတာတွေလုပ်နိုင်မှာမဟုတ်ပါဘူး Update မပေးနိုင်တာကလွဲရင် ကျန်တဲ့ကိစ္စတွေဖြစ်တဲ့ ငွေထုတ် ငွေပို့ကိစ္စတွေ ပြိုင်ပွဲကိစ္စတွေအားလုံးကို Play2Support Team ကအစီအစဥ်အတိုင်းအတိအကျဆက်လုပ်မှာဖြစ်ပါတယ် Page ကိုလည်း active ဖြစ်ဖြစ်ဆက် run သွားမှာပါ (အချုပ်ပြောရရင် game update မရှိတာကလွဲရင် ကျန်တာအကုန်ပုံမှန်ပဲဖြစ်နေမှာပါ)
+ကျွန်တော်မသွားခင်မှာ Play2Support player တွေကိုမှာထားခဲ့ချင်တာရှိပါတယ် Play2Support ဟာကျွန်တော်တို့အတွက်အရောင်မှိန်မှိန် သေးသေးလေးဆိုရင်တောင်မှ ကျွန်တော်တို့ရဲ့မျှော်လင့်ချက်တစ်ခုဖြစ်ပါတယ်။ "ကျွန်တော်တိုရဲ့မျှော်လင့်ချက်ကို အကိုတို့အမတို့ဆီမှာအပ်နှံထားခဲ့ပါရစေ" ကျေးဇူးပြုပြီး Play2Support ကိုများများဆော့ပေးကြပါ လူဆော့များအောင်တိုက်တွန်းပေးကြပါ ကျွန်တော်ပြန်လာခဲ့ရင်ကျွန်တော်တို့အတူ ဂိမ်းအသစ်တွေ Update တွေနဲ့ပြန်တွေ့ကြမယ် အကယ်၍ကျွန်တော်ပြန်မလာနိုင်ခဲ့ရင်လည်း. . . ဆက်ပြီးဆော့ရင်းကြည့်ရင်းတော်လှန်ရေးအတွက်သွေးမအေးပဲထောက်ပို့ပေးကြပါလို့မှာချင်ပါတယ်ခင်ဗျာ
+<br>လေးစားလျက်<br>P2S Team Main Developer/ Founder
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/packages/scrollreveal/dist/scrollreveal.min.js"></script>
+    <script src="assets/js/cus.js"></script>
+    <script>
+        ScrollReveal().reveal('.headline',{
+            origin : 'bottom',
+            interval: 100,
+            delay    : 200,
+            distance : '30px',
+            easing   : 'ease-out',
+            duration: 500,
+            scale: 1,
+            viewFactor: 1,
+            reset: false
+        });
+    </script>
+</main>
 </body>
 </html>
