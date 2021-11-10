@@ -132,6 +132,12 @@ h1{
     color: var(--bss-primary);
 }
 
+.offcanvas-body{
+	overflow-y: auto;
+	height: 70vh;
+}
+
+
 @media screen and (max-width: 1200px) {
     .mode {
         right: 354px;
